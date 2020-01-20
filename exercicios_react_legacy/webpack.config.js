@@ -1,3 +1,4 @@
+  
 const webpack = require('webpack')
 
 module.exports = {
@@ -8,14 +9,14 @@ module.exports = {
     },
     devServer: {
         port: 8080,
-        contetBase: './public',
+        contentBase: './public',
     },
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
     module: {
         loaders: [{
-            test: /.jsx?$/,
+            test: /.js[x]?$/,
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
