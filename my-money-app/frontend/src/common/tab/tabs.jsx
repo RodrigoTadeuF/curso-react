@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default props => (
-    <div className='nab-tabs-custom'>
+    <div className='nav-tabs-custom'> 
         {props.children}
-    </div>
+    </div> 
 )
